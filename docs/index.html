@@ -7,6 +7,9 @@
 </head>
 <body>
 
+  <!-- Corazones flotando -->
+  <div class="hearts"></div>
+
   <div class="container">
     <h1>💖 Nuestro pequeño mundo 💖</h1>
     <p class="subtitle">
@@ -14,23 +17,29 @@
       de cuchurrumina 💕
     </p>
 
-    <button onclick="showMessage()">
-      Presiona aquí 🎮
+    <!-- Reproductor Spotify -->
+    <iframe 
+        style="border-radius:12px; margin-bottom:15px;" 
+        src="https://open.spotify.com/embed/track/3b1IQflSLrgzYQPGFzI9cl" 
+        width="100%" 
+        height="80" 
+        frameborder="0" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+
+    <button onclick="showMainMessage()">
+      🎮 Presiona aquí
     </button>
 
-    <div id="message" class="hidden">
-      <p>
-        Aunque estemos lejos,<br>
-        siempre encontramos la forma de estar juntos.<br><br>
+    <button onclick="showTimeline()">
+      💫 Ver nuestro inicio
+    </button>
 
-        Películas 🎬<br>
-        Juegos 🎮<br>
-        Risas 💬<br><br>
+    <button onclick="showSecret()">
+      💌 Mensaje secreto
+    </button>
 
-        Siempre tú.<br>
-        Siempre nosotros. 💖
-      </p>
-    </div>
+    <div id="message" class="hidden"></div>
   </div>
 
   <script src="script.js"></script>
