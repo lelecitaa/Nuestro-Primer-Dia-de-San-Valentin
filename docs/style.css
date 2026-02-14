@@ -2,7 +2,7 @@ body {
   margin: 0;
   height: 100vh;
   background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
-  font-family: 'Comic Sans MS', 'Arial', sans-serif;
+  font-family: 'Comic Sans MS', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,12 +10,13 @@ body {
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.92);
   padding: 30px;
   border-radius: 25px;
   text-align: center;
-  width: 320px;
+  width: 360px;
   box-shadow: 0 0 30px rgba(255, 105, 180, 0.6);
+  z-index: 2;
 }
 
 h1 {
@@ -26,16 +27,48 @@ button {
   background: #ff69b4;
   border: none;
   border-radius: 20px;
-  padding: 12px 20px;
-  font-size: 16px;
+  padding: 10px 15px;
+  margin: 8px;
+  font-size: 14px;
   cursor: pointer;
   color: white;
+  transition: 0.3s;
 }
 
 button:hover {
   background: #ff85c1;
+  transform: scale(1.05);
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ff4d88;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .hidden {
   display: none;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Corazones flotando */
+.hearts::before {
+  content: "💗 💖 💕 💞 💘 💓 💝";
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  font-size: 24px;
+  animation: float 12s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-120vh); }
+}
+
