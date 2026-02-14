@@ -95,3 +95,10 @@ function showSpecialText(textContent) {
     text.remove();
   }, 4000);
 }
+function abrirMensaje() {
+  document.getElementById("mensajeFinal").classList.remove("oculto");
+}
+
+function cerrarMensaje() {
+  document.getElementById("mensajeFinal").classList.add("oculto");
+}
