@@ -30,86 +30,38 @@
     <button onclick="showSecret()">💌 Mensaje secreto</button>
 
     <div id="message" class="hidden"></div>
-  </div>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Mensaje Final 💌</title>
-  <style>
-    body {
-      margin: 0;
-      background: linear-gradient(135deg, #ff9ecf, #ffc3e6);
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-      color: #5a004f;
-      padding: 30px;
-    }
+   </div> <!-- cierra .container -->
+<!-- BOTÓN MENSAJE FINAL -->
+<div class="final-section">
+  <button onclick="abrirMensaje()">
+    💌 Ver mensaje final
+  </button>
+</div>
 
-    .card {
-      background: white;
-      padding: 40px;
-      border-radius: 25px;
-      max-width: 700px;
-      box-shadow: 0 0 40px rgba(255, 0, 150, 0.3);
-      animation: fadeIn 2s ease;
-    }
-
-    h1 {
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .heart {
-      font-size: 28px;
-      margin-top: 20px;
-    }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <h1>Para mi bolita de quesito 💖</h1>
+<!-- MENSAJE FINAL OCULTO -->
+<div id="mensajeFinal" class="mensaje-final oculto">
+  <div class="mensaje-card">
+    <h2>Para mi bolita de quesito 💖</h2>
 
     <p>
       mi amorcito, la vdd es que no tengo ni la menor idea de que fue lo que hice
       o si te va a gustar, pero solo quiero que sepas que te amo infinitamente.
-      quiero ser parte de tu vida por siempre, aprender y amar todo lo que a ti te gusta.
     </p>
 
     <p>
       estamos creciendo y aprendiendo juntos para nuestro futuro.
-      te lo he dicho mil veces y lo seguiré diciendo:
-      te amo y estoy muy pero muy orgullosa de ti.
+      te amo y estoy muy orgullosa de ti.
     </p>
 
     <p>
-      gracias por todo, por enseñarme lo que es el amor.
-      espero poder seguir compartiendo muchos momentos lindos a tu lado,
-      por muchos San Valentines más.
+      gracias por todo. por muchos San Valentines más.
     </p>
-    <div class="heart">💞</div>
-</div>
 
-<!-- BOTÓN MENSAJE FINAL -->
-<div class="final-section">
-  <button onclick="window.location.href='sorpresas/mensaje_final.md'">
-    💌 Ver mensaje final
-  </button>
+    <div class="cerrar" onclick="cerrarMensaje()">Cerrar 💞</div>
+  </div>
 </div>
 
 <script src="script.js"></script>
 </body>
 </html>
+
