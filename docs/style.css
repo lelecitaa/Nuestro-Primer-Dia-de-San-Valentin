@@ -17,6 +17,9 @@ body {
   border-radius: 30px;
   text-align: center;
   box-shadow: 0 0 40px rgba(255, 0, 150, 0.3);
+
+  position: relative;
+  z-index: 2;
 }
 
 h1 {
