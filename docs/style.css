@@ -7,6 +7,12 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff9ecf, #ffc3e6);
+}
+
 }
 
 .container {
