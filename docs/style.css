@@ -143,9 +143,10 @@ button:hover {
 }
 
 .final-section {
-  text-align: center;
-  margin: 40px auto;
-  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .mensaje-final {
