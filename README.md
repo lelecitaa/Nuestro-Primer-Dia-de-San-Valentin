@@ -48,6 +48,12 @@ simpre encontramos una manera de amarnos y solucionar todo.
 
 ---
 
+## 🚀 Ver experiencia completa
+
+👉 https://lelecitaa.github.io/Nuestro-Primer-Dia-de-San-Valentin/
+
+---
+
 ## 🧠 Tech Stack (versión amor)
 - Amor genuino 
 - Paciencia (a veces no tanta)
