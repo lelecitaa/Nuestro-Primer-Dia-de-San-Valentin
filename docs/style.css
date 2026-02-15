@@ -19,8 +19,6 @@ body {
   box-shadow: 0 0 40px rgba(255, 0, 150, 0.3);
 }
 
-}
-
 h1 {
   color: #ff4d88;
 }
@@ -190,39 +188,3 @@ button:hover {
   font-weight: bold;
   color: #ff4e8a;
 }
-/* MENSAJE FINAL OVERLAY */
-.mensaje-final {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 158, 207, 0.85);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-}
-
-/* TARJETA */
-.mensaje-card {
-  background: white;
-  padding: 40px;
-  border-radius: 25px;
-  max-width: 700px;
-  box-shadow: 0 0 40px rgba(255, 0, 150, 0.4);
-  text-align: center;
-}
-
-/* OCULTO */
-.oculto {
-  display: none;
-}
-
-.cerrar {
-  margin-top: 20px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #ff4e8a;
-}
-
