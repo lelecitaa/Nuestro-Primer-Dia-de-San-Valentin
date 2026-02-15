@@ -14,16 +14,23 @@ por este y muchos San Valentines más 🥰
 
 ---
 
-## 💘 Mi proyecto favorito
+## 💘 Nuestro pequeño mundo
 
 > 🧠 **Nota importante**  
 > Este repositorio no es open-source,  
 > no acepta forks (ni idea de que signifique eso)   
 > y está protegido por amor infinito <3
 
-Este proyecto está dedicado a **mi bolita de quesito favorita** 🧀💖  
+Este proyecto está dedicado a **mi bolita de quesito** 🧀💖  
 No tiene ¨errores¨ graves,  
 solo una dependencia fuerte: **tú**.
+
+Incluye:
+
+- 🎶 Canción que me recuerda a ti
+- 📸 Nuestros momentos
+- 💫 Nuestro inicio
+- 💌 Un mensaje especial
 
 ---
 
@@ -34,10 +41,10 @@ apesar de la distancia,
 los dias malos y todo lo negativo, 
 simpre encontramos una manera de amarnos y solucionar todo.  
 
-🎬 viendo películas  
-🎮 jugando Minecraft, Roblox, Fortnite, Overcooked (aunque nos estresemos)   
-💬 hablando de todo y de nada  
-💞 eligiéndonos todos los días sin fin
+🎬 Viendo películas  
+🎮 Jugando Minecraft, Roblox, Fortnite, Overcooked (aunque nos estresemos)   
+💬 Hablando de todo y de nada  
+💞 Eligiéndonos todos los días sin fin
 
 ---
 
