@@ -1,12 +1,13 @@
 body {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh; /* permite crecer cuando hay contenido largo */
   background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
   font-family: 'Comic Sans MS', sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
-  overflow-x: hidden;
+  align-items: flex-start; /* cambia el centrado vertical automático */
+  padding-top: 40px; /* espacio desde arriba */
+  padding-bottom: 40px; /* espacio desde abajo */
 }
 
 .container {
