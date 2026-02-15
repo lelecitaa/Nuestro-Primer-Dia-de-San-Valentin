@@ -6,18 +6,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #ff9ecf, #ffc3e6);
-}
-
+  overflow-x: hidden;
 }
 
 .container {
   max-width: 600px;
-  margin: 80px auto;
+  width: 90%;
   background: white;
   padding: 40px;
   border-radius: 30px;
@@ -182,7 +176,6 @@ button:hover {
   animation: aparecer 0.4s ease;
   max-height: 90vh;        /* que no salga de la pantalla */
   overflow-y: auto;        /* permite scroll si es muy largo */
-}
 
 }
 
